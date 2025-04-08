@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
+
+html {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 1600px;
+    height: 1200px;
+    padding:100px 215px;
+}
+
+    /*Text selectors*/
+
+.text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0;
+    color:#15143966;
+}
+
+.is-active{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0;
+    color: #1E0E62;
+    background-color: white;
+}
+
+.cardText{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #1E0E62;
+}
+
+.price{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    color:#482BE7;
+}
+
+    /*Container selectors*/
+
+.mainNavContainer{
+    padding: 50px;
+}
+
+.navContainer{
+    width: 150px;
+}
+
+.navButton{
+}
+
+.navElementContainer{
+    margin: 10px;
+}
+
+.mainProductsContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.boxItemsContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itemsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.elementContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.headContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
