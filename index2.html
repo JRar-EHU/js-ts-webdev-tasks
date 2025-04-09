@@ -7,7 +7,29 @@
   <link rel="stylesheet" href="./styles2.css">
 </head>
 <body>
-  <main class="main">
+  <main class="container m-5 text">
+    <div class="columns">
+      <aside class="column is-narrow m-6 text">
+        <ul id="asideUlList">
+        </ul>
+      </aside>
+      <section class="column">
+        <div class="level mb-2">
+          <div class="level-left">
+            <div class="level-item">
+              <p>6 items</p>
+            </div>
+          </div>
+          <div class="level-right">
+            <div class="level-item">
+              <div class="mr-1">sort by</div>
+              <span class="is-active">recommended</span>
+            </div>
+          </div>
+        </div>
+        <div class="columns is-multiline" id="cardsContainer"></div>
+      </section>
+    </div>
   </main>
   <script src="./main2.js"></script>
 </body>

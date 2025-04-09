@@ -7,3 +7,60 @@ html {
     font-optical-sizing: auto;
     font-style: normal;
 }
+
+.text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #15143966;
+}
+
+.is-active{
+    /*font-weight: 500;*/
+    /*font-size: 18px;*/
+    /*line-height: 28px;*/
+    /*letter-spacing: 0;*/
+    color: #1E0E62;
+}
+
+.card-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: center;
+    vertical-align: middle;
+    color: #1E0E62
+}
+
+.card-text{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #1E0E62;
+}
+
+.card-price{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #482BE7 !important;
+
+}
+
+.card.is-transparent {
+    background: none;
+    box-shadow: none;
+    border: none;
+}
